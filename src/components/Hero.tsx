@@ -11,7 +11,7 @@ const HeroArt = styled.div`
   img {
     width: 70%;
   }
-  
+
   @media (max-width: ${size.mobileS }) and (max-width: ${size.mobileL }) {
     opacity: 0.4
     margin-top: -80px;
@@ -20,12 +20,12 @@ const HeroArt = styled.div`
       width: 50%;
     }
   }
-  
+
   @media ${device.mobileS} and (max-width: 767px) {
     opacity: 0.4
     margin-top: -80px;
     z-index: -1;
-    
+
     img {
       width: 50%;
     }
@@ -36,24 +36,24 @@ const HeroText = styled.div`
   color: #F0F0F0;
   font-size: 50px;
   margin: 150px 50px 0 50px;
-  
+
   @media ${device.mobileS} {
     font-size: 22px;
     margin: 70px 50px 0 50px;
   }
-  
+
   @media ${device.mobileL} and (max-width: ${size.tablet}) {
     font-size: 38px;
     margin: 150px 70px 0 70px;
   }
-  
+
   @media ${device.tablet} {
     font-size: 38px;
     margin: -50px 0 0 50px;
   }
 
   @media ${device.laptop} {
-    font-size: 50px;  
+    font-size: 50px;
   }
 `
 
